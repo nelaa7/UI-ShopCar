@@ -1,2 +1,0 @@
-
-Bootstrapper._serverTime = ''; Bootstrapper._clientIP = ''; Bootstrapper.insertPageFiles(['https://tms.audi.com/audi/nemo/code/d49575018f93cd8e935f327afee9930e.js?conditionId0=639050','https://tms.audi.com/audi/nemo/code/1ffbfba856c13a9e690937e4e133d135.js?conditionId0=639050']);Bootstrapper.setPageSpecificDataDefinitionIds([63745,53736,59992,53738,68650,58316]);
