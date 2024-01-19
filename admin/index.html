@@ -55,7 +55,6 @@
             <div class="sidebar-heading">
                 Addons
             </div>
-
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
@@ -65,9 +64,9 @@
                 </a>
                 <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="article\view-artikel.html">Article</a> 
-                        <a class="collapse-item" href="article\add-article.html">Add Article</a>
-                        <a class="collapse-item" href="article\edit-article.html">Edit Article</a>
+                        <a class="collapse-item" href="article/view-artikel.html">Article List</a>
+                        <a class="collapse-item" href="article/add-article.html">Add Article</a>
+                        <a class="collapse-item" href="article/edit-article.html">Edit Article</a>
                         <!-- <a class="collapse-item" href="tabel_transaksi.html">Transaction</a> -->
                     </div>
                 </div>
@@ -81,9 +80,9 @@
                 </a>
                 <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="product\view-product.html">Product</a> 
-                        <a class="collapse-item" href="product\add-product.html">Add Product</a>
-                        <a class="collapse-item" href="product\edit-product.html">Edit Product</a>
+                        <a class="collapse-item" href="../product/view-product.html">Product List</a>
+                        <a class="collapse-item" href="../product/add-product.html">Add Product</a>
+                        <a class="collapse-item" href="../product/edit-product.html">Edit Product</a>
                         <!-- <a class="collapse-item" href="tabel_transaksi.html">Transaction</a> -->
                     </div>
                 </div>
@@ -97,9 +96,9 @@
                 </a>
                 <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="view-Product.html">Product</a> 
-                        <a class="collapse-item" href="Add-Product.html">Add Product</a>
-                        <a class="collapse-item" href="Edit-Product.html">Edit Product</a>
+                        <a class="collapse-item" href="../customer/view-customer.html">Customer List</a>
+                        <a class="collapse-item" href="../customer/detail-customer.html">Customer Detail</a>
+                        <!-- <a class="collapse-item" href="Edit-Product.html">Edit Product</a> -->
                         <!-- <a class="collapse-item" href="tabel_transaksi.html">Transaction</a> -->
                     </div>
                 </div>
@@ -113,15 +112,15 @@
                 </a>
                 <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="view-Product.html">Product</a> 
-                        <a class="collapse-item" href="Add-Product.html">Add Product</a>
-                        <a class="collapse-item" href="Edit-Product.html">Edit Product</a>
+                        <a class="collapse-item" href="../transaction/view-transaction.html">Order List</a>
+                        <a class="collapse-item" href="../transaction/detail-order.html">Order Detail</a>
+                        <!-- <a class="collapse-item" href="Edit-Product.html">Add Product</a> -->
                         <!-- <a class="collapse-item" href="tabel_transaksi.html">Transaction</a> -->
                     </div>
                 </div>
             </li>
 
-            
+
 
         </ul>
         <!-- End of Sidebar -->
@@ -248,8 +247,7 @@
                                 </h6>
                                 <a class="dropdown-item d-flex align-items-center" href="#">
                                     <div class="dropdown-list-image mr-3">
-                                        <img class="rounded-circle" src="img/undraw_profile_1.svg"
-                                            alt="...">
+                                        <img class="rounded-circle" src="img/undraw_profile_1.svg" alt="...">
                                         <div class="status-indicator bg-success"></div>
                                     </div>
                                     <div class="font-weight-bold">
@@ -260,8 +258,7 @@
                                 </a>
                                 <a class="dropdown-item d-flex align-items-center" href="#">
                                     <div class="dropdown-list-image mr-3">
-                                        <img class="rounded-circle" src="img/undraw_profile_2.svg"
-                                            alt="...">
+                                        <img class="rounded-circle" src="img/undraw_profile_2.svg" alt="...">
                                         <div class="status-indicator"></div>
                                     </div>
                                     <div>
@@ -272,8 +269,7 @@
                                 </a>
                                 <a class="dropdown-item d-flex align-items-center" href="#">
                                     <div class="dropdown-list-image mr-3">
-                                        <img class="rounded-circle" src="img/undraw_profile_3.svg"
-                                            alt="...">
+                                        <img class="rounded-circle" src="img/undraw_profile_3.svg" alt="...">
                                         <div class="status-indicator bg-warning"></div>
                                     </div>
                                     <div>
@@ -305,8 +301,7 @@
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
-                                <img class="img-profile rounded-circle"
-                                    src="img/undraw_profile.svg">
+                                <img class="img-profile rounded-circle" src="img/undraw_profile.svg">
                             </a>
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
@@ -335,6 +330,12 @@
 
                 </nav>
                 <!-- End of Topbar -->
+
+
+
+
+
+
 
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
@@ -712,27 +713,27 @@
     </div>
 
     <!--begin::Javascript-->
-	<script>
-		var hostUrl = "assets/";
-	</script>
-	<!--begin::Global Javascript Bundle(mandatory for all pages)-->
-	<script src="assets/plugins/global/plugins.bundle.js"></script>
-	<script src="assets/js/scripts.bundle.js"></script>
-	<!--end::Global Javascript Bundle-->
-	<!--begin::Vendors Javascript(used for this page only)-->
-	<script src="assets/plugins/custom/datatables/datatables.bundle.js"></script>
-	<!--end::Vendors Javascript-->
-	<!--begin::Custom Javascript(used for this page only)-->
-	<script src="assets/js/custom/apps/ecommerce/catalog/products.js"></script>
-	<script src="assets/js/widgets.bundle.js"></script>
-	<script src="assets/js/custom/widgets.js"></script>
-	<script src="assets/js/custom/apps/chat/chat.js"></script>
-	<script src="assets/js/custom/utilities/modals/upgrade-plan.js"></script>
-	<script src="assets/js/custom/utilities/modals/create-campaign.js"></script>
-	<script src="assets/js/custom/utilities/modals/create-app.js"></script>
-	<script src="assets/js/custom/utilities/modals/users-search.js"></script>
-	<!--end::Custom Javascript-->
-	<!--end::Javascript-->
+    <script>
+        var hostUrl = "assets/";
+    </script>
+    <!--begin::Global Javascript Bundle(mandatory for all pages)-->
+    <script src="assets/plugins/global/plugins.bundle.js"></script>
+    <script src="assets/js/scripts.bundle.js"></script>
+    <!--end::Global Javascript Bundle-->
+    <!--begin::Vendors Javascript(used for this page only)-->
+    <script src="assets/plugins/custom/datatables/datatables.bundle.js"></script>
+    <!--end::Vendors Javascript-->
+    <!--begin::Custom Javascript(used for this page only)-->
+    <script src="assets/js/custom/apps/ecommerce/catalog/products.js"></script>
+    <script src="assets/js/widgets.bundle.js"></script>
+    <script src="assets/js/custom/widgets.js"></script>
+    <script src="assets/js/custom/apps/chat/chat.js"></script>
+    <script src="assets/js/custom/utilities/modals/upgrade-plan.js"></script>
+    <script src="assets/js/custom/utilities/modals/create-campaign.js"></script>
+    <script src="assets/js/custom/utilities/modals/create-app.js"></script>
+    <script src="assets/js/custom/utilities/modals/users-search.js"></script>
+    <!--end::Custom Javascript-->
+    <!--end::Javascript-->
     <!-- Bootstrap core JavaScript-->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
