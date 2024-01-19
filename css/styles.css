@@ -11622,6 +11622,33 @@ body {
 
 }
 
+/* detail artikel */
+.masthead-detail {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 15rem;
+  padding: 10rem 0;
+  background-image: url('../assets/katalog/1920x600_CLASSIC_M05_SEDAN_COMP_14_FINAL_FLAT_v2.jpg');
+  /* background-color: #6c757d; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.masthead-detail h1, .masthead-detail .h1 {
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.8rem;
+  color: #07031A;
+
+}
+.masthead-detail h2, .masthead-detail .h2 {
+  max-width: 20rem;
+  font-size: 1rem;
+}
+
 /* transaction */
 @media (min-width: 1025px) {
   .h-custom {
